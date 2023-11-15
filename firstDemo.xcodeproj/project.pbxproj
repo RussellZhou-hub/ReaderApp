@@ -27,6 +27,8 @@
 		BF0428552B0143F400C67624 /* TabNoteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0428542B0143F400C67624 /* TabNoteData.swift */; };
 		BF0428572B014D8D00C67624 /* NoteEntryAndList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0428562B014D8D00C67624 /* NoteEntryAndList.swift */; };
 		BF04285A2B03CF0500C67624 /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = BF0428592B03CF0500C67624 /* ImagePickerView */; };
+		BF04285C2B05449600C67624 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04285B2B05449600C67624 /* LocationManager.swift */; };
+		BF0428602B05486200C67624 /* CheckIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF04285F2B05486200C67624 /* CheckIn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		BF04284D2B012D8C00C67624 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		BF0428542B0143F400C67624 /* TabNoteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNoteData.swift; sourceTree = "<group>"; };
 		BF0428562B014D8D00C67624 /* NoteEntryAndList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEntryAndList.swift; sourceTree = "<group>"; };
+		BF04285B2B05449600C67624 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		BF04285F2B05486200C67624 /* CheckIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 			isa = PBXGroup;
 			children = (
 				BF0428402AFD7B0D00C67624 /* Detail.swift */,
+				BF04285B2B05449600C67624 /* LocationManager.swift */,
+				BF04285F2B05486200C67624 /* CheckIn.swift */,
 				BF0428422AFEBB7100C67624 /* Settings.swift */,
 				BF04283C2AEF2E6400C67624 /* Row.swift */,
 				BF0428112AE81B0900C67624 /* ReaderApp.swift */,
@@ -307,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF0428452AFEC04E00C67624 /* Vibration.swift in Sources */,
+				BF0428602B05486200C67624 /* CheckIn.swift in Sources */,
 				BF0428432AFEBB7100C67624 /* Settings.swift in Sources */,
 				BF04284A2AFFEF3A00C67624 /* Locked.swift in Sources */,
 				BF0428142AE81B0900C67624 /* Master.swift in Sources */,
@@ -316,6 +323,7 @@
 				BF0428552B0143F400C67624 /* TabNoteData.swift in Sources */,
 				BF04284C2B01211000C67624 /* ReadingNote.swift in Sources */,
 				BF0428122AE81B0900C67624 /* ReaderApp.swift in Sources */,
+				BF04285C2B05449600C67624 /* LocationManager.swift in Sources */,
 				BF04283F2AEF3DFC00C67624 /* TabReadingData.swift in Sources */,
 				BF0428572B014D8D00C67624 /* NoteEntryAndList.swift in Sources */,
 				BF0428472AFFD9FD00C67624 /* MotionManager.swift in Sources */,
